@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>My Portfolio</title>
-</head>
-
-<body>
-    <H1>
-        My Portfolio
-    </H1>
+    <title>Mason Beniznger Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="./css/styles.css"
+      />
+  </head>
+  <body>
     <!-- 
       Directions:
         1. Create a DIV element to contain the page content
@@ -32,6 +31,45 @@
           - Switch out your lorem ipsum for Hipster Ipsum (https://hipsum.co/)
           - In your contact me section, make the text "Phone:" and "Email:" bolded
      -->
-</body>
+     <div>
+      <h1>Mason Benzinger</h1>
+      <h2>Engineering Systems Administrator</h2>
+      <hr />
+      <p>My <em>favorite</em> thing about programming is the ability to manimpuate data into useful output</p>
+      <h3>About Me</h3>
+      <img src="./images/FB_IMG_1581968250088.jpg"  width="400" 
+    alt="Profile picture placeholder">
+<!--    <img src="./images/20160713_170354.jpg" width="474"
+    alt="cat picture placeholder"
+    >
+-->
+      <p> 
+        Software can do things, and I know how to work some of it.
+        Clever ways to talk about dull things I do every day.
+        Talk about these things as though I contributed directly to the company's net worth, or annual revenue.
+        Seven million is a big number, expecially if you've already multiplied big numbers together to get there.
+        If I put too much in here, I won't have enough left to talk about at the interview.
+        
+              </p>
+      <h3>My Projects</h3>
+      <ul>
+        <li>Hello World</li>
+        <li>Cats and Dogs</li>
+        <li>Software Development bootcamp</li>
+      </ul>
+      <h3>Contact Me</h3>
+      <p><strong>Phone:</strong> (920) 555-5555</p>
+      <p class="email">  Email: <a href="mailto:mason.benzinger@gmail.com">mason.benzinger@gmail.com</a></p>
+     </div>
+<script>
 
+    let email = document.querySelector('.email')
+    email.addEventListener('mouseover', function bold() {
+      email.style.bold 
+    })
+
+</script>
+
+
+  </body>
 </html>
